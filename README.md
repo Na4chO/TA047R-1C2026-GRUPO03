@@ -60,6 +60,24 @@ python -m pip install -r requirements.txt
 
 Las dependencias se instalan dentro de `.venv`.
 
+Para generar el gráfico del árbol de XGBoost del ejercicio 3, instalar también
+Graphviz en el sistema. El ejecutable `dot` no se instala con `requirements.txt`.
+En Ubuntu o Debian:
+
+```bash
+sudo apt update
+sudo apt install graphviz
+```
+
+Comprobar la instalación con:
+
+```bash
+dot -V
+```
+
+Si muestra la versión de Graphviz, el ejecutable está disponible. Esta instalación
+se realiza una sola vez, fuera del entorno virtual.
+
 ### 3. Abrir Jupyter
 
 Con el entorno activado, ejecutar:
