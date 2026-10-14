@@ -1,0 +1,5 @@
+notebooks/.ipynb_checkpoints/
+notebooks/real_vs_predicho_lineal.png
+notebooks/submission_dt.csv
+notebooks/submission_rf.csv
+notebooks/submission_xgb.csv
