@@ -47,7 +47,7 @@ incluyendo `notebooks/` y `datasets/`, y ejecutar desde esa carpeta.
 
 ## Datos
 
-* `datasets/ej1/`: archivos CSV de Rebrickable (LEGO).
+* `datasets/ej1/`: archivos CSV de Rebrickable (LEGO); `inventory_parts.csv.gz` se lee directamente comprimido.
 * `datasets/ej2/`: `listings.csv.gz` y `tpl_metrofermate.csv`.
 * `datasets/ej3/`: `hotels_train.csv` y `hotels_test.csv`.
 
