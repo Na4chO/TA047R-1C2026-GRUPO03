@@ -32,11 +32,22 @@ Los notebooks leen los datos locales de `datasets/`, sin montar Google Drive.
 Se pueden ejecutar con Jupyter o VS Code desde la raíz del proyecto o desde
 `notebooks/`. Ejecutar las celdas en orden.
 
-Instalar las dependencias con:
+Desde la raíz del proyecto, crear y activar un entorno virtual antes de
+instalar las dependencias:
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
+
+En Windows (PowerShell), activar el entorno con `.\.venv\Scripts\Activate.ps1`
+en lugar de `source .venv/bin/activate`.
+
+Con el entorno activado, iniciar Jupyter corriendo `jupyter notebook` en la terminal. En VS Code,
+seleccionar el intérprete de `.venv` como kernel del notebook. Para volver a
+trabajar en otra terminal, activar nuevamente el entorno. Al terminar, ejecutar
+`deactivate`.
 
 Para visualizar el árbol de XGBoost en el Ejercicio 3 también se necesita
 Graphviz instalado en el sistema (comando `dot`; en Ubuntu: `sudo apt install graphviz`).
