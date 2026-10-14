@@ -1,5 +1,10 @@
-notebooks/.ipynb_checkpoints/
-notebooks/real_vs_predicho_lineal.png
-notebooks/submission_dt.csv
-notebooks/submission_rf.csv
-notebooks/submission_xgb.csv
+# Entornos virtuales y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Respaldos y archivos generados por los notebooks
+.ipynb_checkpoints/
+submission_*.csv
+real_vs_predicho_lineal.png
