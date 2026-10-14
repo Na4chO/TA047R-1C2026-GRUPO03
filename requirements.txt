@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib>=3.9
+seaborn
+scikit-learn>=1.2
+xgboost
+graphviz
+jupyter
